@@ -12,6 +12,7 @@ class GameItem extends React.Component{
               style={{backgroundColor: "#" + this.props.value.color}}
             >
               <p>{this.props.value.content}</p>
+              {this.props.value.element}
             </div>
         );
     }
